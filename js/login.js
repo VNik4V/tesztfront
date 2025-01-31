@@ -7,7 +7,7 @@ async function login() {
         headers: {
             'content-type': 'application/json'
         },
-        body: JSON.stringify({ email, psw, remember: true }),
+        body: JSON.stringify({ email, psw, remember: false }),
         credentials: 'include'
     });
 
