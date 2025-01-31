@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function logout(upload_id){
         console.log(upload_id);
-        const res = await fetch(`http://192.168.10.18:6500/api/auth/logout`, {
+        const res = await fetch(`https://nodejs310.dszcbaross.edu.hu/api/auth/logout`, {
             method: 'POST',
             credentials: 'include'
         });
